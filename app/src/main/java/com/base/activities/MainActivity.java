@@ -1,0 +1,15 @@
+package com.base.activities;
+
+import android.os.Bundle;
+
+import com.base.R;
+import com.base.base.BaseActivity;
+
+public class MainActivity extends BaseActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
